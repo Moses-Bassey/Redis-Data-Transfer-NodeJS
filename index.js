@@ -14,6 +14,7 @@ const destinationRedis = new Redis({
   password: "host_server_password",
 });
 
+
 // Function to fetch all keys and data from the source Redis server and transfer to the destination Redis server
 async function transferData() {
   try {
